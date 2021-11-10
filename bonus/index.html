@@ -10,7 +10,19 @@
 <body>
 
     <div id="myapp">
-        <h1>{{message}}</h1>
+        <h1> {{message}} </h1>
+        <div id="container">
+            
+            <div :class="upCase">
+                <h3>{{imgFold}}</h3> 
+                <img v-bind:src="img"><!-- Questo è il metodo classio x il binding  -->
+            </div>
+            <div :class="upCase">
+                <h3>{{imgRandom}}</h3> 
+                <img :src="imgR"><!-- Questo è il metodo veloce x il binding -->
+            </div>
+
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>

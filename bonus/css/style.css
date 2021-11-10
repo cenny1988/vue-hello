@@ -6,3 +6,21 @@
 body{
     background-color: bisque;
 }
+#myapp{
+    text-align: center;
+}
+.to-upper-case{
+    text-transform: uppercase;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+#container div{
+    padding: 5px;
+}
+#container div img{
+    width: 400px;
+    object-fit: contain;
+}
