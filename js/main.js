@@ -9,3 +9,9 @@ partite semplici,
 ma poi se volete rispolverate qualcosa di html-css per renderlo più carino.
 */
 
+var app = new Vue({
+    el: '#myapp',
+    data: {
+        message: 'Hello Vue'
+    }
+})
